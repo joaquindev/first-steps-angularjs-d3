@@ -1,0 +1,26 @@
+{
+  "name": "first-steps-angularjs-d3",
+  "version": "0.0.0",
+  "authors": [
+    "JoaquinDev <joaquin@isla.io>"
+  ],
+  "description": "Repository with the code that I learn in this talk",
+  "main": "app.js",
+  "keywords": [
+    "angularJS",
+    "D3"
+  ],
+  "license": "MIT",
+  "homepage": "joaquindev.github.io",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.9"
+  }
+}
