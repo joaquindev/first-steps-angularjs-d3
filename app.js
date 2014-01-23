@@ -3,7 +3,8 @@ var app = angular.module("myApp", [])
 app.directive('donutChart', function(){
    function link(scope, el, attr){
      //d3.select(el[0]).append('svg')
-      var data = [82, 32, 63, 42]
+      //var data = [82, 32, 63, 42]
+      var data = scope.data 
       var color = d3.scale.category10() //giving it some color
       //var el = d3.select('div').node()
       var el = el[0]
@@ -28,10 +29,8 @@ app.directive('donutChart', function(){
          }
    return {
     link: link, 
-    restrict: 'E'
+    restrict: 'E', 
+    scope: { data: '=' }
    } 
 })
 
-/*
-
-*/
