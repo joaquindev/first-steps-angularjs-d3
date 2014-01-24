@@ -34,3 +34,6 @@ app.directive('donutChart', function(){
    } 
 })
 
+//app.controller('DonutChartController', function($scope){
+//})
+

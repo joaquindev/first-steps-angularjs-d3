@@ -12,10 +12,9 @@
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
 </head>
-<body ng-app="myApp">
+<body ng-app="myApp" ng-init="charts = [[2,34],[33,66],[50,50]]">
     <!--<div class="donut-chart"></div>-->
-    <donut-chart data="[13, 21]"></donut-chart>
-    <donut-chart data="[33, 54]"></donut-chart>
+    <donut-chart data="chart" ng-repeat="chart in charts"></donut-chart>
     <script src="app.js" charset="utf-8"></script>
 </body>
 </html>
