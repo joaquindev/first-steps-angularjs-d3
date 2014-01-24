@@ -4,7 +4,7 @@ body, html {
     height: 100;
 }
 donut-chart {
-    width: 100px;
-    height: 100px;
+    width: 450px;
+    height: 450px;
     display: block;
 }

@@ -34,6 +34,10 @@ app.directive('donutChart', function(){
    } 
 })
 
-//app.controller('DonutChartController', function($scope){
-//})
+app.controller('DonutChartController', function($scope){
+  $scope.charts = [[2,34],[33,66],[50,50], [98,2]];
+  //$scope.charts = d3.range(10).map(function(){
+  //}) 
+})
+
 
